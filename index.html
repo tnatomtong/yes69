@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#เยส69 #YES69 - ประชามติรัฐธรรมนูญใหม่ 2569</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Kanit', sans-serif;
+            background: #fff;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #FF6B6B 0%, #E63946 100%);
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 100px 20px;
+            background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('images/background.jpg') center/cover no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(255, 200, 124, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+            margin: 0 auto;
+            animation: slideUp 1s ease-out;
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .year-badge {
+            display: inline-block;
+            padding: 10px 24px;
+            background: #E63946;
+            color: white;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 30px;
+        }
+
+        .hashtags {
+            margin: 40px 0;
+        }
+
+        .hashtag {
+            display: inline-block;
+            font-size: 3.5rem;
+            font-weight: 900;
+            color: #D32F2F;
+            margin: 15px 20px;
+            letter-spacing: 2px;
+            animation: bounce-slow 3s ease-in-out infinite;
+        }
+
+        .hashtag:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        @keyframes bounce-slow {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
+        .main-title {
+            font-size: 2.5rem;
+            color: #333;
+            font-weight: 700;
+            margin: 40px 0 20px 0;
+            line-height: 1.4;
+        }
+
+        .subtitle {
+            font-size: 1.3rem;
+            color: #666;
+            margin-bottom: 50px;
+            line-height: 1.8;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 16px 50px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: white;
+            background: linear-gradient(135deg, #FF6B6B 0%, #E63946 100%);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            box-shadow: 0 8px 25px rgba(230, 57, 70, 0.3);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(255, 107, 107, 0.4);
+        }
+
+        .cta-button:active {
+            transform: translateY(-1px);
+        }
+
+        /* Benefits Section */
+        .benefits {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #FFFFFF 0%, #FFF5E6 100%);
+        }
+
+        .section-title {
+            font-size: 2.2rem;
+            color: #333;
+            text-align: center;
+            margin-bottom: 60px;
+            font-weight: 700;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .benefit-card {
+            background: linear-gradient(135deg, #FFE5E5 0%, #FFF5E6 50%, #FFFBF0 100%);
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        .benefit-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .benefit-title {
+            font-size: 1.4rem;
+            color: #E63946;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .benefit-text {
+            font-size: 1rem;
+            color: #666;
+            line-height: 1.7;
+        }
+
+        /* Message Section */
+        .message {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #FF6B6B 0%, #D32F2F 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .message-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .message h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+
+        .message p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(135deg, #333 0%, #1a1a1a 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 0.95rem;
+            margin-bottom: 10px;
+        }
+
+        .footer-link {
+            color: #FF6B6B;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hashtag {
+                font-size: 2.2rem;
+                margin: 10px 10px;
+            }
+
+            .main-title {
+                font-size: 1.8rem;
+            }
+
+            .subtitle {
+                font-size: 1.1rem;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+            }
+
+            .hero {
+                padding: 60px 20px;
+            }
+
+            .benefits {
+                padding: 60px 20px;
+            }
+
+            .message {
+                padding: 60px 20px;
+            }
+
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">#เยส69 #YES69</div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hashtags">
+                <div class="hashtag">#เยส69</div>
+                <div class="hashtag">#YES69</div>
+            </div>
+
+            <h1 class="main-title">
+                ให้กับประชามติรัฐธรรมนูญใหม่<br>
+                ที่จะเกิดขึ้นวันที่ 8 ก.พ. 2569
+            </h1>
+
+            <p class="subtitle">
+                ร่วมเป็นส่วนหนึ่งของกระบวนการประชาธิปไตยที่สำคัญ<br>
+                ในการสร้างอนาคตของประเทศไทย
+            </p>
+
+            <a href="https://www.ilaw.or.th/articles/56640" class="cta-button" target="_blank">
+                เรียนรู้เพิ่มเติม
+            </a>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <h2 class="section-title">ทำไมต้องมีประชามติ?</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-icon">🗳️</div>
+                <h3 class="benefit-title">เสียงของประชาชน</h3>
+                <p class="benefit-text">ไม่มีวิธีไหนที่จะสื่อสารความต้องการของประชาชน ได้ดีกว่าการลงคะแนนเสียงประชามติ</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🐘</div>
+                <h3 class="benefit-title">สร้างความยิ่งใหญ่</h3>
+                <p class="benefit-text">ทุกคนมีส่วนในการตัดสินใจ ที่จะสร้างกฎหมายที่จะนำพาประเทศไทยไปสู่ความยิ่งใหญ่อีกครั้ง</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🌟</div>
+                <h3 class="benefit-title">สู่อนาคตที่มั่นคง</h3>
+                <p class="benefit-text">รัฐธรรมนูญใหม่จะเป็นรากฐานสำหรับการสร้างอนาคตที่มั่นคงของประเทศไทย</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="message">
+        <div class="message-content">
+            <h2>การลงประชามติเป็นการเปล่งเสียงที่ชัดที่สุดของคนไทย</h2>
+            <p>
+                ในปี 2569 นี้ประชาชนไทยจะมีโอกาสออกมาลงคะแนนเพื่อให้ผู้มีอำนาจในสังคม<br>
+                เห็นความต้องการของประชาชนทุกๆคนที่ต้องการมีรัฐธรรมนูญฉบับใหม่
+            </p>
+            <p style="margin-top: 40px;">
+                <strong>มาร่วมเป็นส่วนหนึ่งของการเปลี่ยนแปลงสำคัญนี้</strong>
+            </p>
+            <h2>#เยส69 #YES69</h2>
+        </div>
+    </section>
+
+    <footer>
+        <p>มีข้อสงสัยเกี่ยวกับประชามติรัฐธรรมนูญ?</p>
+        <p>
+            <a href="https://www.ilaw.or.th/articles/56492" class="footer-link" target="_blank">
+                คลิก
+            </a>
+        </p>
+        <p style="margin-top: 30px; color: #999; font-size: 0.9rem;">
+            © 2569 #YES69 Campaign
+        </p>
+    </footer>
+</body>
+</html>
