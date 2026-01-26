@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>#เยส69 #YES69 #เยสก่อนหย่อน - ให้กับประชามติรัฐธรรมนูญใหม่ 2569</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <!-- Preload local Sao Chingcha font files for better performance -->
+    <link rel="preload" href="01_Sao Chingcha/SaoChingcha-Regular.otf" as="font" type="font/otf" crossorigin>
+    <link rel="preload" href="01_Sao Chingcha/SaoChingcha-Bold.otf" as="font" type="font/otf" crossorigin>
+    <link rel="preload" href="01_Sao Chingcha/SaoChingcha-Light.otf" as="font" type="font/otf" crossorigin>
+
+    <style>
+        /* Local Sao Chingcha font faces */
+        @font-face {
+            font-family: 'Sao Chingcha';
+            src: url('01_Sao Chingcha/SaoChingcha-Light.otf') format('opentype');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Sao Chingcha';
+            src: url('01_Sao Chingcha/SaoChingcha-Regular.otf') format('opentype');
+            font-weight: 400;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Sao Chingcha';
+            src: url('01_Sao Chingcha/SaoChingcha-Bold.otf') format('opentype');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+    </style>
     <style>
         * {
             margin: 0;
@@ -19,7 +48,7 @@
         }
 
         body {
-            font-family: 'Kanit', sans-serif;
+            font-family: 'Sao Chingcha', 'Kanit', sans-serif;
             background: #fff;
             color: #333;
         }
@@ -78,6 +107,7 @@
                 opacity: 0;
                 transform: translateY(40px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -114,9 +144,12 @@
         }
 
         @keyframes bounce-slow {
-            0%, 100% {
+
+            0%,
+            100% {
                 transform: translateY(0);
             }
+
             50% {
                 transform: translateY(-15px);
             }
@@ -300,6 +333,7 @@
         }
     </style>
 </head>
+
 <body>
     <header>
         <div class="logo">#เยส69 #YES69 #เยสก่อนหย่อน</div>
@@ -335,12 +369,14 @@
             <div class="benefit-card">
                 <div class="benefit-icon">🗳️</div>
                 <h3 class="benefit-title">เสียงของประชาชน</h3>
-                <p class="benefit-text">ไม่มีวิธีไหนที่จะสื่อสารความต้องการของประชาชน ได้ดีกว่าการลงคะแนนเสียงประชามติ</p>
+                <p class="benefit-text">ไม่มีวิธีไหนที่จะสื่อสารความต้องการของประชาชน ได้ดีกว่าการลงคะแนนเสียงประชามติ
+                </p>
             </div>
             <div class="benefit-card">
                 <div class="benefit-icon">🐘</div>
                 <h3 class="benefit-title">สร้างความยิ่งใหญ่</h3>
-                <p class="benefit-text">ทุกคนมีส่วนในการตัดสินใจที่จะสร้างสิ่งใหม่ ที่จะนำพาประเทศไทยไปสู่ความยิ่งใหญ่อีกครั้ง</p>
+                <p class="benefit-text">ทุกคนมีส่วนในการตัดสินใจที่จะสร้างสิ่งใหม่
+                    ที่จะนำพาประเทศไทยไปสู่ความยิ่งใหญ่อีกครั้ง</p>
             </div>
             <div class="benefit-card">
                 <div class="benefit-icon">🌟</div>
@@ -376,4 +412,5 @@
         </p>
     </footer>
 </body>
+
 </html>
